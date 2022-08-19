@@ -74,7 +74,8 @@ st.markdown(
 )
 
 st.markdown(
-    "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/) with ❤️ by [Max Geraci](https://studiomakoto.it//makoto_member/massimiliano-geraci/) | [![Twitter Follow](https://img.shields.io/twitter/follow/maxgeraci1?style=social)](https://twitter.com/maxgeraci1)  & [Israel Gaudette] | [![Twitter Follow](https://img.shields.io/twitter/follow/IsraelGaudette?style=social)](https://twitter.com/IsraelGaudette)")
+    "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/) with ❤️ by [Max Geraci](https://studiomakoto.it/makoto_member/massimiliano-geraci/) | [![Twitter Follow](https://img.shields.io/twitter/follow/maxgeraci1?style=social)](https://twitter.com/maxgeraci1)  & [Israel Gaudette] | [![Twitter Follow](https://img.shields.io/twitter/follow/IsraelGaudette?style=social)](https://twitter.com/IsraelGaudette)"
+)
 
 with st.sidebar:
     st_lottie(lotti_path, width=280, height=180, loop=False)
