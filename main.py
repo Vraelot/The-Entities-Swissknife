@@ -74,8 +74,17 @@ st.markdown(
 )
 
 st.markdown(
-    "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/), with ❤️ by [@maxgeraci1](https://studiomakoto.it/makoto_member/massimiliano-geraci/) &nbsp | &nbsp [![Twitter Follow](https://img.shields.io/twitter/follow/max_geraci?style=social)](https://twitter.com/maxgeraci1) &nbsp | &nbsp [![this is an image link](https://i.imgur.com/thJhzOO.png)](https://www.buymeacoffee.com/MaxG.SEO)"
-)
+    "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/) with ❤️ by [Max Geraci](https://studiomakoto.it//makoto_member/massimiliano-geraci/) | [![Twitter Follow](https://img.shields.io/twitter/follow/maxgeraci1?style=social)](https://twitter.com/maxgeraci1)  & [Israel Gaudette] | [![Twitter Follow](https://img.shields.io/twitter/follow/IsraelGaudette?style=social)](https://twitter.com/IsraelGaudette)")
+
+with st.sidebar:
+    st_lottie(lotti_path, width=280, height=180, loop=False)
+
+# I used multiple apps to handle the searching criteria. One for custom search and second for keyword search.
+app = MultiApp()
+app.add_app("URL Analysis", url_analysis.app)
+app.add_app("SERP Analysis", serp_analysis.app)
+app.run()
+
 
 
 @st.cache(allow_output_mutation=True)
